@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Template HTML</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
   <style>
     #encabezado{
       background: #FF6767;
@@ -41,82 +43,73 @@
   </style>
 </head>
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <!-- Navbar content -->
+  <div class="container-fluid">
+          <ul class="nav nav">
+        <li>
+           <a class="nav-link" href="#"> <img src="imagenesMue/logoMue.png" width="35px" height="35px">Muebleria | ITA</a>
+        </li>
 
-    
-   <ul class="nav">
-    <img src="imagenesMue/logoMue.png" width="35px" height="35px">
-
- 
-  <li class="nav-item">
-    <a class=" p-1 nav-link disabled active ">&nbsp;&nbsp;&nbsp;Muebleria</a>
-  </li>
-
-  <li class="nav-item">
-    <a class=" p-1 nav-link disabled active">| ITA</a>
-  </li>
-
-
- <li class="nav-item dropdown">
-   <!--  <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Productos</a></FONT> -->
-    
-    <div class="dropdown-menu">
- </li>
-
-  <li class="nav-item">
-    <a class="p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INICIO</a></FONT>
-  </li>
-  <li class="nav-item">
-   <!-- <a class=" p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;INFORMACION DE LA EMPRESA</a></FONT> -->
-  </li>
-
-  <li class="nav-item">
-    <a class=" p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOCALIZACIÓN</a></FONT>
-  </li>
-
-  <li class="nav-item soportetecnico">
-    <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMACIÓN DE LA EMPRESA</a></FONT>
-    <div class="dropdown-menu">
-       </li>
-
- <li class="nav-item soportetecnico">
-    <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATALOGO</a></FONT>
-    <div class="dropdown-menu">
+       <li class="nav-item dropdown">
+         <!--  <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Productos</a></font> -->
+          <div class="dropdown-menu">
+          </div>
        </li>
 
        <li class="nav-item">
-   <a class=" p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACTO</a></FONT> 
-  </li>
-   <li class="nav-item">
-    <a class=" p-1 nav-link disabled active ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ITA</a>
-  </li>
+        <a class="p-1 nav-link disabled" href="#"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INICIO</font></a>
+       </li>
 
-  <li class="nav-item">
-    <a class=" p-1 nav-link disabled active">| Muebleria&nbsp;&nbsp;&nbsp;</a>
-  </li>
-<img src="imagenesMue/logoMue.png" width="35px" height="35px">
+       <li class="nav-item">
+       <!-- <a class=" p-1 nav-link disabled" href="#"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;INFORMACION DE LA EMPRESA</a></font> -->
+       </li>
+
+       <li class="nav-item">
+        <a class=" p-1 nav-link disabled" href="#"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOCALIZACIÓN</font></a>
+       </li>
+
+       <li class="nav-item soportetecnico dropdown">
+        <a class="nav-link p-1 dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMACIÓN DE LA EMPRESA</font></a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">VISION Y MISION</a></li>
+          <li><a class="dropdown-item" href="#">POLITICAS DE LA EMPRESA</a></li>
+        </ul>
+       </li>
+
+      <li class="nav-item soportetecnico dropdown">
+        <a class=" p-1 nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATALOGO</font></a>
+        <ul class="dropdown-menu">
+        </ul>
+      </li>
+
+      <li class="nav-item">
+         <a class=" p-1 nav-link disabled" href="#"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACTO</font></a> 
+      </li>
+       
+      <li>
+        <a class="nav-link" href="#">ITA | Muebleria<img src="imagenesMue/logoMue.png" width="35px" height="35px"></a>
+      </li>
 
   
-  <li class="nav-item">
-    <!--<a class="p-1 nav-link disabled btn btn-outline-dark" href="#"><FONT SIZE=1>&nbsp;Visual studio gratuito</a></FONT>-->
-  </li>
+      <li class="nav-item">
+        <!--<a class="p-1 nav-link disabled btn btn-outline-dark" href="#"><font SIZE=1>&nbsp;Visual studio gratuito</a></font>-->
+      </li>
 
    <li class="nav-item todomicrosoft">
-   <!-- <a class="p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Todo Microsoft</a></FONT>-->
-    <div class="dropdown-menu">
-       </li>
-       <li class="nav-item">
-    <!--<a class="p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Sign in</a></FONT> -->
-  </li>
-</ul>
+   <!-- <a class="p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Todo Microsoft</a></font>-->
+      <ul class="dropdown-menu">
+      </ul>
+    </li>
+    
+    <li class="nav-item">
+    <!--<a class="p-1 nav-link disabled" href="#"><font SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Sign in</a></font> -->
+    </li>
+  </ul>
+  </div>  
+ </nav>
 
-      </div>
-    </div>
-    </nav>
-
-    <div class="container" style="margin-bottom: 40px">
+<div class="container" style="margin-bottom: 40px">
 <div id="Banner" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
     <li data-target="#Banner" data-slide-to="0" class="active"></li>
