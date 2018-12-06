@@ -1,0 +1,103 @@
+<center><img src="barra.png" width="%50" height="%50"></center>
+ <div class="contenido">
+ 	<div class="form_top">
+ 		<h2> Registro <span>Clientes</span></h2>
+    </div>
+    <form class="form_reg" action="">
+    
+    <input class="input" type="text" placeholder="NOMBRES" required  autofocus>
+    <input class="input" type="text"  placeholder="APELLIDOS" required>
+    <input class="input" type="tel"  placeholder="TELEFONO" required>
+    <input class="input" type="email"  placeholder="EMAIL" required>
+    <input class="input" type="text" placeholder="NUMERO DE VIVIENDA" required  autofocus>
+    <input class="input" type="text"  placeholder="PRIVADA" required>
+    <input class="input" type="text"  placeholder="INMUEBLE" required>
+    <input class="input" type="text"  placeholder="COMENTARIOS" required>
+    <input class="input" type="tel"  placeholder="ID DE SU USUARIO" required>	
+    <div class="boton">
+     <input class="registrar" type="submit" value="REGISTRAR">
+     <input class="limpiar" type="reset" value="LIMPIAR">
+     </div>
+   
+    </form>
+ </div >
+
+  <center>
+  	<table >
+  		<thead>
+  		<tr>
+  			<th colspan="1"><a href="registrarclientes.html">NUEVO</a></th>
+  		    <th colspan="10"> <center>REGISTROS DE CLIENTES</center></th> 
+  			</tr> 
+  		</thead>
+  		<tbody>
+  			<tr>
+  				<td>NOMBRES</td>
+  				<td>APELLIDOS</td>
+  				<td>TELEFONO</td>
+  				<td>EMAIL</td>
+  				<td>NUMERO DE VIVIENDA</td>
+  				<td>PRIVADA</td>
+  				<td>INMUEBLE</td>
+  				<td>COMENTARIOS</td>
+  				<td>ID DE SU USUARIO</td>
+  				<td colspan="2"> <center>OPERACION A REALIZAR</center></td>
+  				
+  			</tr>
+      <!--   migue elimina esto -->
+  			<tr>
+  				<td>Justino</td>
+  				<td>Garcia Montaño</td>
+  				<td>7441866077</td>
+  				<td>justin@htomail.com</td>
+  				<td>235</td>
+  				<td>Sharon putita</td>
+  				<td>3</td>
+  				<td>Vive a lado de la alberca</td>
+  				<td>1001</td>
+  				<td><a href="">Modficar</a></td>
+  				<td><a href="">Eliminar</a></td>
+  			</tr>
+  			<tr>
+  				<td>Miguel Angel</td>
+  				<td>Otapo Fajardo</td>
+  				<td>7441866045</td>
+  				<td>migue@htomail.com</td>
+  				<td>300</td>
+  				<td>Maria bonita</td>
+  				<td>5</td>
+  				<td>Vive a lado de la puerta principal</td>
+  				<td>1002</td>
+  				<td><a href="">Modficar</a></td>
+  				<td><a href="">Eliminar</a></td>
+  			</tr>
+  			<tr>
+  				<td>Silvia Montserrat</td>
+  				<td>Castañeda Silva</td>
+  				<td>7441866000</td>
+  				<td>silvia@htomail.com</td>
+  				<td>400</td>
+  				<td>Quarlos</td>
+  				<td>3</td>
+  				<td>Vive a lado de carlos</td>
+  				<td>1003</td>
+  				<td><a href="">Modficar</a></td>
+  				<td><a href="">Eliminar</a></td>
+  			</tr>
+  			<tr>
+  				<td>Dayano Gabriel</td>
+  				<td>Orive Banamex</td>
+  				<td>7441866090</td>
+  				<td>migue@htomail.com</td>
+  				<td>300</td>
+  				<td>Maria bonita</td>
+  				<td>5</td>
+  				<td>Vive a lado de los polis</td>
+  				<td>1004</td>
+  				<td><a href="">Modficar</a></td>
+  				<td><a href="">Eliminar</a></td>
+  			</tr>
+  	   <!-- hasta aqui solo era para hacer pruebas-->
+  		</tbody>
+  	</table>
+  </center>

@@ -1,0 +1,3 @@
+en etiquetas y <a href="nombre del archivo sin terminacion">
+archivo con terminacion .php
+archi router agregar nombre de archivo conten esta comentario //
